@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718198455195,
+  "lastUpdate": 1718198875262,
   "repoUrl": "https://github.com/henrybear327/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -12235,6 +12235,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "Coremark",
             "value": 0.004,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "henrybear327@gmail.com",
+            "name": "Chun-Hung Tseng",
+            "username": "henrybear327"
+          },
+          "committer": {
+            "email": "henrybear327@gmail.com",
+            "name": "Chun-Hung Tseng",
+            "username": "henrybear327"
+          },
+          "distinct": true,
+          "id": "0f98c64d6dcecc9c21de254bce5625ace67c55c7",
+          "message": "Dummy code changes to trigger benchmark",
+          "timestamp": "2024-06-12T15:24:46+02:00",
+          "tree_id": "9d3981d9b3bfad11445634504e19aa5db1385059",
+          "url": "https://github.com/henrybear327/rv32emu/commit/0f98c64d6dcecc9c21de254bce5625ace67c55c7"
+        },
+        "date": 1718198873156,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 7.88,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.006,
             "unit": "Average iterations/sec over 10 runs"
           }
         ]
