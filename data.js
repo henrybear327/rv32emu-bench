@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718201167630,
+  "lastUpdate": 1718202342672,
   "repoUrl": "https://github.com/henrybear327/rv32emu",
   "entries": {
     "Benchmarks": [
@@ -12418,6 +12418,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "Dhrystone",
             "value": 5.66,
+            "unit": "Average DMIPS over 10 runs"
+          },
+          {
+            "name": "Coremark",
+            "value": 0.005,
+            "unit": "Average iterations/sec over 10 runs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "committer": {
+            "name": "henrybear327",
+            "username": "henrybear327"
+          },
+          "id": "9409fdd8e203bf64d2d70e190909844be22a9be4",
+          "message": "Switch the benchmark to self-hosted node11",
+          "timestamp": "2024-06-12T09:43:21Z",
+          "url": "https://github.com/henrybear327/rv32emu/pull/4/commits/9409fdd8e203bf64d2d70e190909844be22a9be4"
+        },
+        "date": 1718202340121,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "Dhrystone",
+            "value": 3.37,
             "unit": "Average DMIPS over 10 runs"
           },
           {
